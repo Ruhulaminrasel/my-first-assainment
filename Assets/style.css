@@ -15,15 +15,20 @@
   font-style: normal;
 }
 
+.default-color{
+    background-color: #F5F8FF;
+}
 
 /* Fonts Css Finish Here */
 
 /* Navbar Css Start Here */
 
 .header{
-    background-image: url(./Assets/Hero-bg.png);
- width: 1440px;
- height:698px;  
+ background-image: url(./Hero-bg.png);
+ /*width: 1440px;
+ height:698px;*/
+ width:100%;  
+ height:698px;
 }
 
 nav {
@@ -47,7 +52,7 @@ Nav a{
     border: none;
     padding: 10px 16px;
     border-radius: 10px;    
-    font-size: bold;
+    font-weight: bold;
 }
 /*Navbar Css Finish Here*/
 
@@ -62,6 +67,7 @@ Nav a{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
+    color: #252432;
 }
 /* Banner Css Finish Here */
 
@@ -78,6 +84,7 @@ Nav a{
 .action h4 {
     font-size: 42px;
     font-weight: bold;
+    color: #252432;
 }
 .action p {
     font-size: 24px;
@@ -91,4 +98,81 @@ Nav a{
     border-radius:48px;
 }
 
+/*action Css Finish Here */
+
+/* Productive Css Start here */
+
+.productive {
+    background-color: #eae8fe;
+    border-radius: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.prd-title {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 50px 80px;
+    padding: 0px 80px 0px 80px;
+    text-align: center;
+    color: #252432;
+}
+.proud {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.prd-box{
+ 
+}
+
+.prd-value {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px auto;
+    color: #4E47FF;
+}
+.prd-cmt {
+    font-size: 20px;
+    color: #757575;
+}
+/*productive css finish here */
+
+/* testimonial css Start Here */
+
+.testimonial{}
+.testimonial h2 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    color: #252432;
+}
+.testimonial-card {
+    display: flex;
+    /* background-color: wheat; */
+}
+.testi-card {
+    background-color: #FFFFFF;
+    margin: 20px;
+    text-align: left;
+    border-radius: 14px;
+    padding: 24px 24px;
+    ;
+}
+.stars{}
+.testi-card h3{}
+.testi-card p{}
+.reviewer img{
+    border-radius: 50%;
+}
+.name{
+    color: #8987A1;
+    font-weight: bold;
+}
+.date{
+    color: #B3B3B3;
+}
 
