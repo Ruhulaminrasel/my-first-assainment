@@ -7,7 +7,6 @@
   font-style: normal;
 }
 
-
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -40,12 +39,40 @@ nav {
 }
 nav h3{
     color:#4E47FF;
-    font-weight: bold;
-    font-size: 34px;
+font-weight: bold;
+font-size: 34px;
+text-align: center;
 }
+.banner h1 {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-right: 100px;
+}
+
+
 Nav a{
     text-decoration: none;
 }
+.btn-primary1 {
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;    
+    font-weight: bold;
+    transition: 1s;
+    margin-right: 100px;
+    
+}
+
+.btn-primary1:hover{
+    color: white;
+    background-color: #252426;
+    font-size: 20px;
+}
+
 .btn-primary {
     color: white;
     background-color: #4E47FF;
@@ -53,6 +80,14 @@ Nav a{
     padding: 10px 16px;
     border-radius: 10px;    
     font-weight: bold;
+    transition: 1s;
+    
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: #252426;
+    font-size: 20px;
 }
 /*Navbar Css Finish Here*/
 
@@ -176,3 +211,97 @@ Nav a{
     color: #B3B3B3;
 }
 
+/*testimonial css finish here*/
+
+/*conf Starts here */
+.conf-section {
+    background-color: white;
+}
+.conf-top {
+    text-align: center;
+}
+.conf-top h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 71px;
+    line-height: 5px;
+}
+.conf-top p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.conf-bottom{}
+.conf-bottom {
+    /* width: 100%; */
+    border-radius: 48px;
+    margin: 20px 150px 10px 240px;
+}
+/*conf css finish here*/
+
+/*form Css Start here */
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 150px 14px 150px;
+}
+.form-left{}
+.form-left h3 {
+    font-size: 87px;
+    font-weight: bold;
+}
+.form-right{}
+.form-right p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-box {
+    box-sizing: 47px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+}
+.btn-pr1{
+    width: 100%;
+}
+
+/* Footer Css Start here*/
+
+.footer {
+    margin: 104px 450px 203px 450px;
+}
+.footer-top{}
+.footer-top h3{
+color:#4E47FF;
+font-weight: bold;
+font-size: 34px;
+text-align: center;
+}
+.footer-top p{
+    text-align: center;
+    color: #B3B3B3;
+   
+}
+.nav{}
+.nav ul{
+    display: flex;
+    text-align: center;
+
+}
+.nav ul li{
+    list-style:none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #B3B3B3;
+    margin-right: 35px;
+    text-align: center;
+    transition: 1s;
+}
+
+.nav ul li a:hover{
+    color:#4E47FF;
+    border-radius: 10px;
+}
